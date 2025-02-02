@@ -1,11 +1,6 @@
-from us_visa.logger import logging
-from us_visa.exception import USvisaException
-import sys
+import os
+from us_visa.constants import MONGODB_URL_KEY
+mongo_db_url = os.getenv(MONGODB_URL_KEY)
+print(mongo_db_url)
 
-#logging.info("Welcome to our custom log")
 
-
-try:
-    a = 2/0
-except Exception as e:
-    raise USvisaException(e,sys)
