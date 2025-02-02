@@ -23,3 +23,8 @@ export LIBOMP_DIR="/opt/homebrew/opt/libomp/lib"
 export DYLD_LIBRARY_PATH="$LIBOMP_DIR:$DYLD_LIBRARY_PATH"
 
 source ~/.zshrc  # Or `source ~/.bashrc` for bash users
+
+# workflow
+
+1.constants
+2.entity
