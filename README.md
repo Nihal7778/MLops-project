@@ -28,3 +28,5 @@ source ~/.zshrc  # Or `source ~/.bashrc` for bash users
 
 1.constants
 2.entity
+3.components
+4.pipeline
